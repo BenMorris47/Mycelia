@@ -1,0 +1,42 @@
+{\rtf1}
+Created by Ben Morris.
+
+
+If you want to save data,
+First impliment the ISavable interface into your program. This is create 2 functions, a capture and restore state.
+Next Set up a struct for your save data to be moved into, in the capture state create a new save data object and set all the fields up with the data you want to save, in the restore state create a variable to hold the save data, cast the state into a save data object and then you can set any values from the save data.
+
+To let the object save
+if you want the objects save functions to be triggered you must add the saveable object monobehaviour along with the saving and loading manager that can be easily called from any script as it is a singleton.
+
+
+
+Example
+---------------------------------------------------------------------------------------------------------
+
+	[SerializeField] private int level = 1;
+	[SerializeField] private int xp = 100;
+
+	public object CamptureState()
+	{
+		return new saveData
+		{
+			xp = xp,
+			level = level
+		};
+	}
+
+	public void RestoreState(object state)
+	{
+		var savedata = (saveData)state;
+
+		level = savedata.level;
+		xp = savedata.xp;
+	}
+
+	[Serializable] //Must be serializable
+	private struct saveData
+	{
+		public int level;
+		public int xp;
+	}

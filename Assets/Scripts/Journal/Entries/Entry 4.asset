@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a58a97bb5644d46962ab8a7dd5f1db, type: 3}
+  m_Name: Entry 4
+  m_EditorClassIdentifier: 
+  dateStringDDMMYYYY: 16/04/2014
+  author: Professor Zdislawa Brzecsy
+  title: The Crepitus Gun
+  entry: "Professor Rick has made an extraordinary creation! He made a gun where
+    you can insert the different mushroom serums and fire them at different objects.
+    I can\u2019t wait to test them out!\r\n"

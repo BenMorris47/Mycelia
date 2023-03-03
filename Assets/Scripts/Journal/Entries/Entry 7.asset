@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a58a97bb5644d46962ab8a7dd5f1db, type: 3}
+  m_Name: Entry 7
+  m_EditorClassIdentifier: 
+  dateStringDDMMYYYY: November 21 1997
+  author: Professor Zdislawa Brzecsy
+  title: Entry 7
+  entry: "The Smiths daughter has been missing for 3 days now. She was last seen
+    entering the mines. The sense of unease keeps on escalating. Frederika mentioned
+    how Mia has started saying that she could hear these strange voices, I don\u2019t
+    know what's going on but it's strange first her husband now her daughter. I\u2019m
+    thinking of closing down the store and moving back to the city. "

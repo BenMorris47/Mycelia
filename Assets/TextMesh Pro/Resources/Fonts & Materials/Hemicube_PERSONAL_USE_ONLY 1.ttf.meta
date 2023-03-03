@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7bd73699da6f928428e10d82f75cf531
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hemicube PERSONAL USE ONLY
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b6e0062cd1d3edc4d9df8e012356a2a7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

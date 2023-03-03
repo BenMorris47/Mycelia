@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a58a97bb5644d46962ab8a7dd5f1db, type: 3}
+  m_Name: Entry 5
+  m_EditorClassIdentifier: 
+  dateStringDDMMYYYY: 01/07/2015
+  author: Professor Zdislawa Brzecsy
+  title: Animals and mushrooms
+  entry: "I came across a sad discovery today, it seems that some of the wildlife
+    on the island has been infected by the mushrooms. I saw mushrooms sprouting out
+    of a family of turtles. I asked my superior whether we should take them in to
+    see if we can stop it but he just shrugged me off. He\u2019s been acting strange
+    recently, not only him. Rick has been going on and on about changing people into
+    mushrooms. At first, I thought he was only joking but now I\u2019m not so sure.
+    \r\n"

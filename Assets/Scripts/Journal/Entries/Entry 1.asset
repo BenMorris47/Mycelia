@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a58a97bb5644d46962ab8a7dd5f1db, type: 3}
+  m_Name: Entry 1
+  m_EditorClassIdentifier: 
+  dateStringDDMMYYYY: 07/03/2012
+  author: Professor Zdislawa Brzecsy
+  title: 'Dissolve Mushroom '
+  entry: "For the last couple of months, I\u2019ve been investigating these green
+    mushrooms. They seem to be corrosive, we\u2019ve tested their serum on multiple
+    items and they seem to dissolve whatever they touch. \r"

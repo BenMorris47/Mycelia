@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd5edbff56ee524cb645543c0ee4c9b, type: 3}
+  m_Name: Area3
+  m_EditorClassIdentifier: 
+  dialogueLocations:
+  - dialogueReference:
+      Guid:
+        Data1: 1598302238
+        Data2: 1141529824
+        Data3: 1441991345
+        Data4: 1144069737
+      Path: event:/Sound Effects/Puzzle 1/Puzzle1_CollectGun
+    subtitles: Serum Gun Collected
+  - dialogueReference:
+      Guid:
+        Data1: -880745198
+        Data2: 1280883230
+        Data3: 599341749
+        Data4: -1639771520
+      Path: event:/Dialogue/Dlg_3_WeirdGun
+    subtitles: 'A weird gun you say?
+
+      And you''re sure there''s no one there?'
+  beginningAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endAction:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GunMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: gun
+    m_Weight: 1
+  - m_Path: gun/head
+    m_Weight: 1
+  - m_Path: gun/prongA
+    m_Weight: 1
+  - m_Path: gun/prongB
+    m_Weight: 1
+  - m_Path: gun/prongC
+    m_Weight: 1
+  - m_Path: gun/prongD
+    m_Weight: 1
+  - m_Path: gun/shaft
+    m_Weight: 1
+  - m_Path: Shaft
+    m_Weight: 1
+  - m_Path: Shaft/Head
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngA_1
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngA_1/ProngA_2
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngA_1/ProngA_2/ProngA_3
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngB_1
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngB_1/ProngB_2
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngB_1/ProngB_2/ProngB_3
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngC_1
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngC_1/ProngC_2
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngC_1/ProngC_2/ProngC_3
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngD_1
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngD_1/ProngD_2
+    m_Weight: 1
+  - m_Path: Shaft/Head/ProngD_1/ProngD_2/ProngD_3
+    m_Weight: 1

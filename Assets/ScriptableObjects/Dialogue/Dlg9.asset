@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd5edbff56ee524cb645543c0ee4c9b, type: 3}
+  m_Name: Dlg9
+  m_EditorClassIdentifier: 
+  dialogueLocations:
+  - dialogueReference:
+      Guid:
+        Data1: 169476965
+        Data2: 1215586695
+        Data3: 1856686744
+        Data4: -1175203062
+      Path: event:/Dialogue/Area 1/Dlg_Area1 9
+    subtitles: " You found a mine shaft! That might be a way out! \u2026 oh you need
+      a key again?... well um\u2026 uh.. You can try checking out the house that's
+      on top of the hill. Can you find a way up?"
+  beginningAction:
+    m_PersistentCalls:
+      m_Calls: []
+  endAction:
+    m_PersistentCalls:
+      m_Calls: []

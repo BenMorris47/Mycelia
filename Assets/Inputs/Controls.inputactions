@@ -1,0 +1,500 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "PlayerMovement",
+            "id": "90054beb-abf3-4447-9893-96f476eec878",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "PassThrough",
+                    "id": "302f84f4-09bb-46d5-90e1-cfc3626635db",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "650b33c0-e5b7-40d9-ab9d-0e424bbf6f40",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PickupMush",
+                    "type": "Button",
+                    "id": "c9c7fed9-49bf-4809-8743-53456883b365",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeHeldItem",
+                    "type": "Value",
+                    "id": "eadac7ca-2b5f-4001-9abf-f519fa1345a8",
+                    "expectedControlType": "Vector2",
+                    "processors": "NormalizeVector2",
+                    "interactions": ""
+                },
+                {
+                    "name": "History",
+                    "type": "Button",
+                    "id": "34903aa4-b8c2-4a7d-8290-78a3e1f9ca12",
+                    "expectedControlType": "Button",
+                    "processors": "NormalizeVector2",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "ba0b3d86-2111-4a10-85d9-b985a76d2e87",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "b81ff148-fb71-44e3-beb7-16f04ca8170b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b24919c2-5d30-490e-9d21-0908110e3e09",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "597f9227-ac0c-4815-a14b-5c43e38fc835",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "34171965-0cc4-4ce2-8584-1799b1980ace",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "45a5ca8b-c4cc-4193-99cd-6903a6869838",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4fac800f-0f7f-405a-8edd-c5f921d339db",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PickupMush",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "519759e6-fcd4-4d99-a167-68482c8e63d6",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "NormalizeVector2",
+                    "groups": "",
+                    "action": "ChangeHeldItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6214b056-ab95-4fa0-9bc3-dc8ad7a217b6",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "History",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PhotoModeControls",
+            "id": "a18a28b1-3430-4f27-a3d8-dd0593f89c22",
+            "actions": [
+                {
+                    "name": "TakePhoto",
+                    "type": "Button",
+                    "id": "34c603c1-6ba3-47f0-b5f6-fa730abb5cea",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "aabd219e-e80f-4779-a24b-57985bee13b0",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TakePhoto",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Look",
+            "id": "adde448e-3dc0-4e14-8e03-8e72e3e9c3e2",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "146ad6b5-2abe-46a6-aa98-201c6dd20bff",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fd7f6883-73d9-47cb-bbe5-7b600634358d",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "DevConsole",
+            "id": "d03f4a45-f3f7-4603-948d-4739151c7051",
+            "actions": [
+                {
+                    "name": "ConsoleToggle",
+                    "type": "Button",
+                    "id": "7366e852-806b-4855-887d-4ff907e0f591",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5dcf7679-5a5d-480d-869c-f6d8c12b7ab9",
+                    "path": "<Keyboard>/rightBracket",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "ConsoleToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "InteractionSystem",
+            "id": "14f49be6-eb73-4840-92c3-e00af4b0016c",
+            "actions": [
+                {
+                    "name": "MousePos",
+                    "type": "Value",
+                    "id": "1cdea4cc-6181-423a-926f-243d1999208c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "2caa6613-8a44-4efb-873b-7c775d70261e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d67c8095-6bfe-460c-86a7-6916589d4258",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "345514ec-becd-4095-ae31-0528dbbd80ad",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "MousePos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ConstantControls",
+            "id": "5f9792f5-55ff-4c25-abd6-aa00c868bd00",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "3cee83c7-7ec5-4473-98f8-b0948c16547a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ff5bca5e-89ba-4ca4-ae53-e1fe6b6ca2e7",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1622c1ce-329a-4b2d-8119-4303037d1f72",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "TabletShortcuts",
+            "id": "d24d287f-c1c8-44e3-8d1a-676254880f4e",
+            "actions": [
+                {
+                    "name": "Journal",
+                    "type": "Button",
+                    "id": "4378acf4-e55a-44c4-b331-4558d02431f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PhotoMode",
+                    "type": "Button",
+                    "id": "f26c9d51-c832-44ef-8c59-34c9d3ad2bae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Email",
+                    "type": "Button",
+                    "id": "987c6622-cb85-401a-a851-31200a95f8be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "46dec6c0-2bb4-4475-944f-00fd2d3bd2b1",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Journal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bac9d1c8-4176-43f6-b2d7-320de396cca4",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PhotoMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "207b5c92-7fe4-4ecb-a251-6243f71efc4d",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Email",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "StartGameText",
+            "id": "517a8015-a351-4139-9315-f0c6e5960603",
+            "actions": [
+                {
+                    "name": "Progress/Skip",
+                    "type": "Button",
+                    "id": "2a129f34-a3a2-44a9-8320-27498e920e48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c094b685-ba07-4a2e-b753-9e9eb7851366",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Progress/Skip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GunConrols",
+            "id": "f9c67952-f090-4533-bf11-e899169c2624",
+            "actions": [
+                {
+                    "name": "CycleAmmo",
+                    "type": "Button",
+                    "id": "d1dd9766-15ee-4f0c-8d4c-f2f4477e5ef6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "170416cf-f669-4cd4-a6e2-e66acc23cab1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e7e89444-54a3-4c03-a1e8-2b6b5930a887",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CycleAmmo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e9f29df-bd54-4136-bcaf-5ce327cc10cd",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "History",
+            "id": "ca49f3be-ac3d-49b3-8a32-33af76b2f069",
+            "actions": [
+                {
+                    "name": "History Activation",
+                    "type": "Button",
+                    "id": "2b95d9de-fd20-46b4-a622-b6074d41920e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "661a58f0-35e1-4c6f-9d03-cb1f496b20a1",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "History Activation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard&Mouse",
+            "bindingGroup": "Keyboard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
